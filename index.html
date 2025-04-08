@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <h1>Consulta de CEP - com API</h1>
+    <input type="text" id="cep" placeholder="Digite o CEP" />
+    <button onclick="consultarCEP()">Consultar</button>
+
+    <div id="resultado">
+        <p><strong>Rua:</strong> <span id="logradouro"></span></p>
+        <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+        <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+        <p><strong>Estado:</strong> <span id="estado"></span></p>
+    </div>
+    <div id="error" style="color: red;font-size: xx-large;">
+        
+    </div>
+</body>
+</html>
